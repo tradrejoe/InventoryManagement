@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ADO.Net.Client.Annotations</id>
+    <version>1.2.0</version>
+    <title>ADO.Net.Client.Annotations</title>
+    <authors>Robert Garrison</authors>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icon.png</icon>
+    <readme>README.md</readme>
+    <description>Annotation objects for ADO.Net.Client based libraries</description>
+    <copyright>Copyright © Robert Garrison 2022</copyright>
+    <tags>micro-orm orm sql ado.net ado.net.client</tags>
+    <repository type="git" url="https://github.com/rgarrison12345/ADO.Net.Client.git" commit="66233ed0ef4cbef3769c88e43f1a700ac1597e12" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
